@@ -3,11 +3,11 @@ import Fastify from "fastify";
 
 // Serverregistrierung und -konfiguration
 export async function buildApp() {
-    const app = Fastify({ logger: true });
-    app.get('/', async () => {
-        return { hello: 'world' }
-    })
-    // await app.register(userRoutes, { prefix: "/users" });
+  const app = Fastify({ logger: true });
+  app.get("/", async () => {
+    return { hello: "world" };
+  });
+  // await app.register(userRoutes, { prefix: "/users" });
 
-    return app;
+  return app;
 }
