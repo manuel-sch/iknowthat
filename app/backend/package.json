@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
-    "fastify": "^5.7.4"
+    "@ai-sdk/openai": "^3.0.41",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/env": "^5.0.3",
+    "ai": "^6.0.116",
+    "fastify": "^5.7.4",
+    "zod": "^4.3.6"
   },
   "scripts": {
     "dev": "tsx watch server.ts",

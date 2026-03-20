@@ -1,5 +1,6 @@
 import { buildApp } from "./app";
 import { FastifyInstance } from "fastify";
+import "./config"; // Wichtig für Module Augmentation (app.config)
 
 // Nur Startlogik
 const start = async () => {
@@ -7,9 +8,14 @@ const start = async () => {
 
   try {
     app = await buildApp();
-    await app?.listen({ port: 3000 });
+    const port = app.config.PORT || 3000;
+    await app.listen({ port });
   } catch (err) {
-    app.log.error(err);
+    if (app) {
+      app.log.error(err);
+    } else {
+      console.error("Fehler beim Starten der App:", err);
+    }
     process.exit(1);
   }
 };
