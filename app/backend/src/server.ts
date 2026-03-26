@@ -1,6 +1,6 @@
-import { buildApp } from "./app";
+import { buildApp } from "./app.js";
 import { FastifyInstance } from "fastify";
-import "./config"; // Wichtig für Module Augmentation (app.config)
+import "../config.js"; // Wichtig für Module Augmentation (app.config)
 
 // Nur Startlogik
 const start = async () => {

@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import { fastifyEnv } from "@fastify/env";
-import { configOptions } from "./config";
+import { configOptions } from "../config.js";
 // import userRoutes from "./modules/user/user.route";
 
 // Serverregistrierung und -konfiguration
