@@ -19,7 +19,10 @@ const databasePlugin: FastifyPluginAsync = async (fastify: FastifyInstance) => {
     connectionString: fastify.config.DATABASE_URL,
   });
 
-  const db = drizzle(pool, { schema });
+  const db = drizzle(pool, {
+    schema,
+    logger: process.env.NODE_ENV !== "production",
+  });
 
   fastify.decorate("db", db);
 
@@ -29,4 +32,3 @@ const databasePlugin: FastifyPluginAsync = async (fastify: FastifyInstance) => {
 };
 
 export default fp(databasePlugin);
-

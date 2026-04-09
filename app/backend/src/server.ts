@@ -8,8 +8,9 @@ const start = async () => {
 
   try {
     app = await buildApp();
-    const port = app.config.PORT || 3000;
-    await app.listen({ port });
+    const port = app.config.PORT;
+    const host = app.config.HOST;
+    await app.listen({ port, host });
   } catch (err) {
     if (app) {
       app.log.error(err);
