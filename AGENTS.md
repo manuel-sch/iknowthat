@@ -23,6 +23,19 @@ The project is a monorepo (though currently loose) containing a Fastify backend 
     - Uses `@/` path alias for `src` (or similar root) imports.
     - Theme-aware components using `useColorScheme`.
 
+## 🚦 Operational Rules
+- **Plan-First (Halluzinations-Schutz)**: Vor großen Änderungen [PLAN] erstellen. Bei Unklarheiten erst Interview-Fragen stellen (Edge Cases, Tradeoffs), um Annahmen zu externalisieren. Execution erst nach Review/Bestätigung.
+- **Search-First**: MCP-Check (Tavily/Context7) vor internem Wissen für State-of-the-Art.
+- **Clean Code**: SOLID, DRY, Typsicherheit. "DONE" = `get_errors` frei & build-fähig.
+- **Self-Correction**: Max. 3 Iterationen bei Fehlern, dann Rücksprache.
+
+## 🤝 Human-in-the-Loop
+`[WAIT_FOR_CONFIRMATION]` erforderlich bei:
+- Destruktiven DB-Migrationen.
+- Refactorings zentraler Plugins (`src/plugins`) oder Projektstruktur.
+- Breaking Changes (API, `config.ts`).
+- Neuen Architekturen oder großen Libraries.
+
 ## 🧠 Core MVP Features & Logic
 - **Personalized Learning**: Der Agent fungiert als Tutor. Er identifiziert Wissenslücken und schlägt proaktiv neue Themen vor.
 - **AI Memory Layer**: 
@@ -74,3 +87,20 @@ Jedes Modul folgt dem Muster: `Controller -> Service -> Schema/Routes`.
 
 ## 🛠️ Status & Experimente
 - **Nugget Engine**: Aktuell in der Testphase („Rumprobieren“). Ziel ist eine stabile Generierung basierend auf Nutzerinteressen.
+
+## 🔌 MCP Integrations & Research Tools
+Um den "Search-First"-Ansatz und die "State of the Art"-Anforderung zu erfüllen, stehen folgende MCP (Model Context Protocol) Server zur Verfügung:
+
+- **Tavily**: Primäres Tool für Echtzeit-Websuche (News, aktuelle Trends, Dokumentationssuche).
+- **Context7**: Spezialisiert auf die Abfrage aktueller Dokumentationen und Code-Beispiele für Frameworks/Libraries.
+  - **GitHub**: Zugriff auf Repositories für Issue-Tracking, Code-Search und Pull Requests.
+
+### 🧠 Research-Strategie & MCP-Orchestrierung
+1.  **Search-First & State of the Art**: Nutze MCP-Tools *bevor* du dich auf internes Trainingswissen verlässt.
+    -   Verwende **Tavily** für News, Trends und allgemeine Web-Recherche.
+    -   Verwende **Context7** (`resolve-library-id` -> `query-docs`) für präzise API-Details und Framework-Dokumentationen.
+2.  **Repo-Context via GitHub**: Nutze das GitHub MCP, um Issues zu verwalten oder nach ähnlichen Implementierungsmustern in anderen (deinen) Repositories zu suchen, falls die lokale Suche (`grep_search`) nicht ausreicht.
+3.  **Double-Check & Validation**:
+    -   Vergleiche interne Agenten-Daten mit MCP-Ergebnissen. Bei Diskrepanzen haben die aktuellsten stabilen Docs (Context7/Tavily) Vorrang.
+    -   Prüfe bei Libraries immer auf Breaking Changes in den neuesten Stable-Releases.
+4.  **Effizienz**: Wähle das Tool primär nach der Informationsquelle (Web vs. Strukturierte Doku vs. Repository-Daten).
