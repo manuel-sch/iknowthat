@@ -54,6 +54,14 @@ expo-env.d.ts
 
 # GitHub Copilot (JetBrains)
 copilotDiffState.xml
+copilot-diff-state.xml
+.copilot-diff-state.xml
+
+# Playwright / MCP
+**/playwright-report/
+**/test-results/
+**/playwright-mcp/
+.playwright/
 
 # =========================
 # Misc

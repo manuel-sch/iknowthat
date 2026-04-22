@@ -1,4 +1,5 @@
 # AI Coding Agent Guide - iknowthat
+Antworte auf deutsch.
 
 This guide helps AI agents understand the architecture and conventions of the `iknowthat` project to be immediately productive.
 
@@ -37,7 +38,7 @@ The project is a monorepo (though currently loose) containing a Fastify backend 
 - Neuen Architekturen oder großen Libraries.
 
 ## 🧠 Core MVP Features & Logic
-- **Personalized Learning**: Der Agent fungiert als Tutor. Er identifiziert Wissenslücken und schlägt proaktiv neue Themen vor.
+- **Personalized Learning**: Der Agent des Softwareprojekts fungiert als Tutor. Er identifiziert Wissenslücken und schlägt proaktiv neue Themen vor.
 - **AI Memory Layer**: 
     - Speichert Nutzerfortschritt und validiertes Wissen ("Nuggets").
     - Verwendet Vektordatenbank (geplant: Pinecone oder Supabase Vector) für semantische Suche nach Wissenslücken.
@@ -92,15 +93,21 @@ Jedes Modul folgt dem Muster: `Controller -> Service -> Schema/Routes`.
 Um den "Search-First"-Ansatz und die "State of the Art"-Anforderung zu erfüllen, stehen folgende MCP (Model Context Protocol) Server zur Verfügung:
 
 - **Tavily**: Primäres Tool für Echtzeit-Websuche (News, aktuelle Trends, Dokumentationssuche).
+- **Playwright**: Browser-Automatisierung für Frontend-Validierung, Debugging (Network/Console), Viewport-Tests und visuelle Snapshots.
 - **Context7**: Spezialisiert auf die Abfrage aktueller Dokumentationen und Code-Beispiele für Frameworks/Libraries.
+
   - **GitHub**: Zugriff auf Repositories für Issue-Tracking, Code-Search und Pull Requests.
 
 ### 🧠 Research-Strategie & MCP-Orchestrierung
 1.  **Search-First & State of the Art**: Nutze MCP-Tools *bevor* du dich auf internes Trainingswissen verlässt.
     -   Verwende **Tavily** für News, Trends und allgemeine Web-Recherche.
     -   Verwende **Context7** (`resolve-library-id` -> `query-docs`) für präzise API-Details und Framework-Dokumentationen.
-2.  **Repo-Context via GitHub**: Nutze das GitHub MCP, um Issues zu verwalten oder nach ähnlichen Implementierungsmustern in anderen (deinen) Repositories zu suchen, falls die lokale Suche (`grep_search`) nicht ausreicht.
-3.  **Double-Check & Validation**:
+2.  **Frontend-Validation & Debugging (Playwright)**:
+    -   Prüfe UI-Modelle und Styles via Snapshots/Screenshots.
+    -   Analysiere Network-Requests oder fange Console-Errors ab, wenn das Frontend lokal oder in Staging läuft.
+    -   Teste reaktives Verhalten in verschiedenen Viewports.
+3.  **Repo-Context via GitHub**: Nutze das GitHub MCP, um Issues zu verwalten oder nach ähnlichen Implementierungsmustern in anderen (deinen) Repositories zu suchen, falls die lokale Suche (`grep_search`) nicht ausreicht.
+4.  **Double-Check & Validation**:
     -   Vergleiche interne Agenten-Daten mit MCP-Ergebnissen. Bei Diskrepanzen haben die aktuellsten stabilen Docs (Context7/Tavily) Vorrang.
     -   Prüfe bei Libraries immer auf Breaking Changes in den neuesten Stable-Releases.
-4.  **Effizienz**: Wähle das Tool primär nach der Informationsquelle (Web vs. Strukturierte Doku vs. Repository-Daten).
+5.  **Effizienz**: Wähle das Tool primär nach der Informationsquelle (Web vs. Strukturierte Doku vs. Repository-Daten).
