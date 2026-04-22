@@ -1,0 +1,321 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - text: Re-watch the latest
+      - link "React Native Keynote" [ref=e6] [cursor=pointer]:
+        - /url: https://www.youtube.com/watch?v=NiYwlvXsBKw
+      - text: from React Conf 2025
+  - navigation "Main" [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - link "React Native" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e12]: React Native
+        - button "0.85" [ref=e14] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "Development" [ref=e17] [cursor=pointer]
+        - link "Contributing" [ref=e18] [cursor=pointer]:
+          - /url: /contributing/overview
+        - link "Community" [ref=e19] [cursor=pointer]:
+          - /url: /community/overview
+        - link "Showcase" [ref=e20] [cursor=pointer]:
+          - /url: /showcase
+        - link "Blog" [ref=e21] [cursor=pointer]:
+          - /url: /blog
+        - link "GitHub repository" [ref=e22] [cursor=pointer]:
+          - /url: https://github.com/facebook/react-native
+        - button "Switch between dark and light mode (currently system mode)" [disabled] [ref=e24]:
+          - img [ref=e25]
+        - button "Search (Meta+k)" [ref=e28] [cursor=pointer]:
+          - img [ref=e30]
+  - generic [ref=e35]:
+    - complementary [ref=e36]:
+      - navigation "Docs sidebar" [ref=e39]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - button "The Basics" [expanded] [ref=e43] [cursor=pointer]:
+              - generic "The Basics" [ref=e44]
+            - list [ref=e45]:
+              - listitem [ref=e46]:
+                - link "Introduction" [ref=e47] [cursor=pointer]:
+                  - /url: /docs/getting-started
+                  - generic "Introduction" [ref=e48]
+              - listitem [ref=e49]:
+                - link "Core Components and Native Components" [ref=e50] [cursor=pointer]:
+                  - /url: /docs/intro-react-native-components
+                  - generic "Core Components and Native Components" [ref=e51]
+              - listitem [ref=e52]:
+                - link "React Fundamentals" [ref=e53] [cursor=pointer]:
+                  - /url: /docs/intro-react
+                  - generic "React Fundamentals" [ref=e54]
+              - listitem [ref=e55]:
+                - link "Handling Text Input" [ref=e56] [cursor=pointer]:
+                  - /url: /docs/handling-text-input
+                  - generic "Handling Text Input" [ref=e57]
+              - listitem [ref=e58]:
+                - link "Using a ScrollView" [ref=e59] [cursor=pointer]:
+                  - /url: /docs/using-a-scrollview
+                  - generic "Using a ScrollView" [ref=e60]
+              - listitem [ref=e61]:
+                - link "Using List Views" [ref=e62] [cursor=pointer]:
+                  - /url: /docs/using-a-listview
+                  - generic "Using List Views" [ref=e63]
+              - listitem [ref=e64]:
+                - link "Troubleshooting" [ref=e65] [cursor=pointer]:
+                  - /url: /docs/troubleshooting
+                  - generic "Troubleshooting" [ref=e66]
+              - listitem [ref=e67]:
+                - link "Platform-Specific Code" [ref=e68] [cursor=pointer]:
+                  - /url: /docs/platform-specific-code
+                  - generic "Platform-Specific Code" [ref=e69]
+              - listitem [ref=e70]:
+                - link "More Resources" [ref=e71] [cursor=pointer]:
+                  - /url: /docs/more-resources
+                  - generic "More Resources" [ref=e72]
+          - listitem [ref=e73]:
+            - button "Environment setup" [ref=e75] [cursor=pointer]:
+              - generic "Environment setup" [ref=e76]
+          - listitem [ref=e77]:
+            - button "Workflow" [ref=e79] [cursor=pointer]:
+              - generic "Workflow" [ref=e80]
+          - listitem [ref=e81]:
+            - button "UI & Interaction" [ref=e83] [cursor=pointer]:
+              - generic "UI & Interaction" [ref=e84]
+          - listitem [ref=e85]:
+            - button "Releases" [ref=e87] [cursor=pointer]:
+              - generic "Releases" [ref=e88]
+          - listitem [ref=e89]:
+            - button "Debugging" [ref=e91] [cursor=pointer]:
+              - generic "Debugging" [ref=e92]
+          - listitem [ref=e93]:
+            - button "Testing" [ref=e95] [cursor=pointer]:
+              - generic "Testing" [ref=e96]
+          - listitem [ref=e97]:
+            - button "Performance" [ref=e99] [cursor=pointer]:
+              - generic "Performance" [ref=e100]
+          - listitem [ref=e101]:
+            - button "JavaScript Runtime" [ref=e103] [cursor=pointer]:
+              - generic "JavaScript Runtime" [ref=e104]
+          - listitem [ref=e105]:
+            - button "Codegen" [ref=e107] [cursor=pointer]:
+              - generic "Codegen" [ref=e108]
+          - listitem [ref=e109]:
+            - button "Native Development" [ref=e111] [cursor=pointer]:
+              - generic "Native Development" [ref=e112]
+          - listitem [ref=e113]:
+            - button "Android and iOS guides" [ref=e115] [cursor=pointer]:
+              - generic "Android and iOS guides" [ref=e116]
+          - listitem [ref=e117]:
+            - button "Legacy Architecture" [ref=e119] [cursor=pointer]:
+              - generic "Legacy Architecture" [ref=e120]
+    - main [ref=e121]:
+      - generic [ref=e123]:
+        - generic [ref=e125]:
+          - article [ref=e126]:
+            - generic [ref=e127]:
+              - heading "Introduction" [level=1] [ref=e129]
+              - generic [ref=e130]:
+                - paragraph [ref=e131]:
+                  - text: Welcome to the very start of your React Native journey! If you're looking for getting started instructions, they've moved to
+                  - link "their own section" [ref=e132] [cursor=pointer]:
+                    - /url: environment-setup
+                  - text: . Continue reading for an introduction to the documentation, Native Components, React, and more!
+                - img [ref=e133]
+              - paragraph [ref=e134]: "Many different kinds of people use React Native: from advanced iOS developers to React beginners, to people getting started programming for the first time in their career. These docs were written for all learners, no matter their experience level or background."
+              - heading "How to use these docsDirect link to How to use these docs" [level=2] [ref=e135]:
+                - text: How to use these docs
+                - link "Direct link to How to use these docs" [ref=e136] [cursor=pointer]:
+                  - /url: "#how-to-use-these-docs"
+                  - text: "#"
+              - paragraph [ref=e137]:
+                - text: You can start here and read through these docs linearly like a book; or you can read the specific sections you need. Already familiar with React? You can skip
+                - link "that section" [ref=e138] [cursor=pointer]:
+                  - /url: /docs/intro-react
+                - text: —or read it for a light refresher.
+              - heading "PrerequisitesDirect link to Prerequisites" [level=2] [ref=e139]:
+                - text: Prerequisites
+                - link "Direct link to Prerequisites" [ref=e140] [cursor=pointer]:
+                  - /url: "#prerequisites"
+                  - text: "#"
+              - paragraph [ref=e141]:
+                - text: To work with React Native, you will need to have an understanding of JavaScript fundamentals. If you’re new to JavaScript or need a refresher, you can
+                - link "dive in" [ref=e142] [cursor=pointer]:
+                  - /url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+                - text: or
+                - link "brush up" [ref=e143] [cursor=pointer]:
+                  - /url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+                - text: at Mozilla Developer Network.
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - img [ref=e147]
+                  - text: info
+                - paragraph [ref=e150]: While we do our best to assume no prior knowledge of React, Android, or iOS development, these are valuable topics of study for the aspiring React Native developer. Where sensible, we have linked to resources and articles that go more in depth.
+              - heading "Interactive examplesDirect link to Interactive examples" [level=2] [ref=e151]:
+                - text: Interactive examples
+                - link "Direct link to Interactive examples" [ref=e152] [cursor=pointer]:
+                  - /url: "#interactive-examples"
+                  - text: "#"
+              - paragraph [ref=e153]: "This introduction lets you get started immediately in your browser with interactive examples like this one:"
+              - iframe [ref=e155]
+              - paragraph [ref=e156]: The above is a Snack Player. It’s a handy tool created by Expo to embed and run React Native projects and share how they render in platforms like Android and iOS. The code is live and editable, so you can play directly with it in your browser. Go ahead and try changing the "Try editing me!" text above to "Hello, world!"
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - img [ref=e160]
+                  - text: tip
+                - paragraph [ref=e163]:
+                  - text: Optionally, if you want to set up a local development environment,
+                  - link "you can follow our guide to setting up your environment on your local machine" [ref=e164] [cursor=pointer]:
+                    - /url: /docs/set-up-your-environment
+                  - text: and paste the code examples into your project. (If you are a web developer, you may already have a local environment set up for mobile browser testing!)
+              - heading "Developer NotesDirect link to Developer Notes" [level=2] [ref=e165]:
+                - text: Developer Notes
+                - link "Direct link to Developer Notes" [ref=e166] [cursor=pointer]:
+                  - /url: "#developer-notes"
+                  - text: "#"
+              - paragraph [ref=e167]: "People from many different development backgrounds are learning React Native. You may have experience with a range of technologies, from web to Android to iOS and more. We try to write for developers from all backgrounds. Sometimes we provide explanations specific to one platform or another like so:"
+              - generic [ref=e168]:
+                - tablist [ref=e169]:
+                  - tab "Android" [ref=e170] [cursor=pointer]
+                  - tab "iOS" [ref=e171] [cursor=pointer]
+                  - tab "Web" [selected] [ref=e172] [cursor=pointer]
+                - tabpanel [ref=e174]:
+                  - generic [ref=e175]:
+                    - generic [ref=e176]:
+                      - img [ref=e178]
+                      - text: info
+                    - paragraph [ref=e181]: Web developers may be familiar with this concept.
+              - heading "FormattingDirect link to Formatting" [level=2] [ref=e182]:
+                - text: Formatting
+                - link "Direct link to Formatting" [ref=e183] [cursor=pointer]:
+                  - /url: "#formatting"
+                  - text: "#"
+              - paragraph [ref=e184]:
+                - text: "Menu paths are written in bold and use carets to navigate submenus. Example:"
+                - strong [ref=e185]: Android Studio > Preferences
+              - separator [ref=e186]
+              - paragraph [ref=e187]:
+                - text: "Now that you know how this guide works, it's time to get to know the foundation of React Native:"
+                - link "Native Components" [ref=e188] [cursor=pointer]:
+                  - /url: /docs/intro-react-native-components
+                - text: .
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - link "Edit page for next release" [ref=e192] [cursor=pointer]:
+                  - /url: https://github.com/facebook/react-native-website/edit/main/docs/introduction.md
+                  - img [ref=e193]
+                  - text: Edit page for next release
+                - link "Edit page for current release" [ref=e196] [cursor=pointer]:
+                  - /url: https://github.com/facebook/react-native-website/edit/main/website/versioned_docs/version-0.85/introduction.md
+                  - img [ref=e197]
+                  - text: Edit page for current release
+              - generic [ref=e201]:
+                - text: Last updated on
+                - time [ref=e203]: Apr 8, 2026
+          - navigation "Docs pages" [ref=e204]:
+            - link "Next Core Components and Native Components »" [ref=e205] [cursor=pointer]:
+              - /url: /docs/intro-react-native-components
+              - generic [ref=e206]: Next
+              - generic [ref=e207]: Core Components and Native Components »
+        - list [ref=e210]:
+          - listitem [ref=e211]:
+            - link "How to use these docs" [ref=e212] [cursor=pointer]:
+              - /url: "#how-to-use-these-docs"
+          - listitem [ref=e213]:
+            - link "Prerequisites" [ref=e214] [cursor=pointer]:
+              - /url: "#prerequisites"
+          - listitem [ref=e215]:
+            - link "Interactive examples" [ref=e216] [cursor=pointer]:
+              - /url: "#interactive-examples"
+          - listitem [ref=e217]:
+            - link "Developer Notes" [ref=e218] [cursor=pointer]:
+              - /url: "#developer-notes"
+          - listitem [ref=e219]:
+            - link "Formatting" [ref=e220] [cursor=pointer]:
+              - /url: "#formatting"
+  - contentinfo [ref=e221]:
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - generic [ref=e225]: Develop
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "Guides" [ref=e228] [cursor=pointer]:
+                - /url: /docs/getting-started
+            - listitem [ref=e229]:
+              - link "Components" [ref=e230] [cursor=pointer]:
+                - /url: /docs/components-and-apis
+            - listitem [ref=e231]:
+              - link "APIs" [ref=e232] [cursor=pointer]:
+                - /url: /docs/accessibilityinfo
+            - listitem [ref=e233]:
+              - link "Architecture" [ref=e234] [cursor=pointer]:
+                - /url: /architecture/overview
+        - generic [ref=e235]:
+          - generic [ref=e236]: Participate
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "Showcase" [ref=e239] [cursor=pointer]:
+                - /url: /showcase
+            - listitem [ref=e240]:
+              - link "Contributing" [ref=e241] [cursor=pointer]:
+                - /url: /contributing/overview
+            - listitem [ref=e242]:
+              - link "Community" [ref=e243] [cursor=pointer]:
+                - /url: /community/overview
+            - listitem [ref=e244]:
+              - link "Directory" [ref=e245] [cursor=pointer]:
+                - /url: https://reactnative.directory/
+                - text: Directory
+                - img [ref=e246]
+            - listitem [ref=e248]:
+              - link "Stack Overflow" [ref=e249] [cursor=pointer]:
+                - /url: https://stackoverflow.com/questions/tagged/react-native
+                - text: Stack Overflow
+                - img [ref=e250]
+        - generic [ref=e252]:
+          - generic [ref=e253]: Find us
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "Blog" [ref=e256] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e257]:
+              - link "X" [ref=e258] [cursor=pointer]:
+                - /url: https://x.com/reactnative
+                - text: X
+                - img [ref=e259]
+            - listitem [ref=e261]:
+              - link "Bluesky" [ref=e262] [cursor=pointer]:
+                - /url: https://bsky.app/profile/reactnative.dev
+                - text: Bluesky
+                - img [ref=e263]
+            - listitem [ref=e265]:
+              - link "GitHub" [ref=e266] [cursor=pointer]:
+                - /url: https://github.com/facebook/react-native
+                - text: GitHub
+                - img [ref=e267]
+        - generic [ref=e269]:
+          - generic [ref=e270]: Explore More
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - link "ReactJS" [ref=e273] [cursor=pointer]:
+                - /url: https://react.dev/
+                - text: ReactJS
+                - img [ref=e274]
+            - listitem [ref=e276]:
+              - link "Privacy Policy" [ref=e277] [cursor=pointer]:
+                - /url: https://opensource.fb.com/legal/privacy/
+                - text: Privacy Policy
+                - img [ref=e278]
+            - listitem [ref=e280]:
+              - link "Terms of Service" [ref=e281] [cursor=pointer]:
+                - /url: https://opensource.fb.com/legal/terms/
+                - text: Terms of Service
+                - img [ref=e282]
+      - generic [ref=e284]:
+        - link "Meta Open Source Logo" [ref=e286] [cursor=pointer]:
+          - /url: https://opensource.fb.com/
+          - img "Meta Open Source Logo" [ref=e287]
+        - generic [ref=e288]: Copyright © 2026 Meta Platforms, Inc.

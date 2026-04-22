@@ -1,0 +1,945 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - paragraph [ref=e10]:
+        - text: The first StrictlyVC of 2026 hits SF on April 30. Tickets are going fast.
+        - link "Register now." [ref=e11] [cursor=pointer]:
+          - /url: https://techcrunch.com/events/strictlyvc-san-francisco-2026/?utm_source=tc&utm_medium=ad&utm_campaign=svcsf2026&utm_content=ticketsales&promo=topbanner&display=
+      - button "Close" [ref=e12]:
+        - generic [ref=e13]: Close
+        - img [ref=e14]
+    - banner [ref=e16]:
+      - generic [ref=e19]:
+        - figure [ref=e20]:
+          - link "TechCrunch Desktop Logo" [ref=e21] [cursor=pointer]:
+            - /url: https://techcrunch.com
+            - generic [ref=e22]: TechCrunch Desktop Logo
+        - generic [ref=e24]:
+          - 'navigation "Redesign: Primary Navigation" [ref=e25]':
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "Latest" [ref=e28] [cursor=pointer]:
+                  - /url: /latest/
+              - listitem [ref=e29]:
+                - link "Startups" [ref=e30] [cursor=pointer]:
+                  - /url: /category/startups/
+              - listitem [ref=e31]:
+                - link "Venture" [ref=e32] [cursor=pointer]:
+                  - /url: /category/venture/
+              - listitem [ref=e33]:
+                - link "Apple" [ref=e34] [cursor=pointer]:
+                  - /url: /tag/apple/
+              - listitem [ref=e35]:
+                - link "Security" [ref=e36] [cursor=pointer]:
+                  - /url: /category/security/
+              - listitem [ref=e37]:
+                - link "AI" [ref=e38] [cursor=pointer]:
+                  - /url: /category/artificial-intelligence/
+              - listitem [ref=e39]:
+                - link "Apps" [ref=e40] [cursor=pointer]:
+                  - /url: /category/apps/
+          - 'navigation "Redesign: Secondary Navigation" [ref=e42]':
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "Events" [ref=e45] [cursor=pointer]:
+                  - /url: /events/
+              - listitem [ref=e46]:
+                - link "Podcasts" [ref=e47] [cursor=pointer]:
+                  - /url: /podcasts/
+              - listitem [ref=e48]:
+                - link "Newsletters" [ref=e49] [cursor=pointer]:
+                  - /url: /newsletters/
+        - generic [ref=e51]:
+          - button "Site Search Toggle" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: Site Search Toggle
+          - generic [ref=e55]:
+            - button "Mega Menu Toggle" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: Mega Menu Toggle
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]: Topics
+                    - generic:
+                      - generic:
+                        - paragraph:
+                          - link:
+                            - /url: /latest/
+                            - text: Latest
+                        - paragraph:
+                          - link:
+                            - /url: /category/artificial-intelligence/
+                            - text: AI
+                        - paragraph:
+                          - link:
+                            - /url: /tag/amazon/
+                            - text: Amazon
+                        - paragraph:
+                          - link:
+                            - /url: /category/apps/
+                            - text: Apps
+                        - paragraph:
+                          - link:
+                            - /url: /category/biotech-health/
+                            - text: Biotech & Health
+                        - paragraph:
+                          - link:
+                            - /url: /category/climate/
+                            - text: Climate
+                        - paragraph:
+                          - link:
+                            - /url: /tag/cloud-computing/
+                            - text: Cloud Computing
+                        - paragraph:
+                          - link:
+                            - /url: /category/commerce/
+                            - text: Commerce
+                        - paragraph:
+                          - link:
+                            - /url: /category/cryptocurrency/
+                            - text: Crypto
+                        - paragraph:
+                          - link:
+                            - /url: /category/enterprise/
+                            - text: Enterprise
+                        - paragraph:
+                          - link:
+                            - /url: /tag/evs/
+                            - text: EVs
+                        - paragraph:
+                          - link:
+                            - /url: /category/fintech/
+                            - text: Fintech
+                        - paragraph:
+                          - link:
+                            - /url: /category/fundraising/
+                            - text: Fundraising
+                        - paragraph:
+                          - link:
+                            - /url: /category/gadgets/
+                            - text: Gadgets
+                        - paragraph:
+                          - link:
+                            - /url: /category/gaming/
+                            - text: Gaming
+                        - paragraph:
+                          - link:
+                            - /url: /tag/google/
+                            - text: Google
+                        - paragraph:
+                          - link:
+                            - /url: /category/government-policy/
+                            - text: Government & Policy
+                      - generic:
+                        - paragraph:
+                          - link:
+                            - /url: /category/hardware/
+                            - text: Hardware
+                        - paragraph:
+                          - link:
+                            - /url: /tag/instagram/
+                            - text: Instagram
+                        - paragraph:
+                          - link:
+                            - /url: /tag/layoffs/
+                            - text: Layoffs
+                        - paragraph:
+                          - link:
+                            - /url: /category/media-entertainment/
+                            - text: Media & Entertainment
+                        - paragraph:
+                          - link:
+                            - /url: /tag/meta/
+                            - text: Meta
+                        - paragraph:
+                          - link:
+                            - /url: /tag/microsoft/
+                            - text: Microsoft
+                        - paragraph:
+                          - link:
+                            - /url: /category/privacy/
+                            - text: Privacy
+                        - paragraph:
+                          - link:
+                            - /url: /category/robotics/
+                            - text: Robotics
+                        - paragraph:
+                          - link:
+                            - /url: /category/security/
+                            - text: Security
+                        - paragraph:
+                          - link:
+                            - /url: /category/social/
+                            - text: Social
+                        - paragraph:
+                          - link:
+                            - /url: /category/space/
+                            - text: Space
+                        - paragraph:
+                          - link:
+                            - /url: /category/startups/
+                            - text: Startups
+                        - paragraph:
+                          - link:
+                            - /url: /tag/tiktok/
+                            - text: TikTok
+                        - paragraph:
+                          - link:
+                            - /url: /category/transportation/
+                            - text: Transportation
+                        - paragraph:
+                          - link:
+                            - /url: /category/venture/
+                            - text: Venture
+                  - generic:
+                    - heading [level=3]: More from TechCrunch
+                    - generic:
+                      - paragraph:
+                        - link:
+                          - /url: /about-techcrunch/
+                          - text: Staff
+                      - paragraph:
+                        - link:
+                          - /url: /events/
+                          - text: Events
+                      - paragraph:
+                        - link:
+                          - /url: /startup-battlefield/
+                          - text: Startup Battlefield
+                      - paragraph:
+                        - link:
+                          - /url: https://strictlyvc.com/
+                          - text: StrictlyVC
+                      - paragraph:
+                        - link:
+                          - /url: /newsletters/
+                          - text: Newsletters
+                      - paragraph:
+                        - link:
+                          - /url: /podcasts/
+                          - text: Podcasts
+                      - paragraph:
+                        - link:
+                          - /url: /video/
+                          - text: Videos
+                      - paragraph:
+                        - link:
+                          - /url: /sponsored/
+                          - text: Partner Content
+                      - paragraph:
+                        - link:
+                          - /url: /brand-studio/
+                          - text: TechCrunch Brand Studio
+                      - paragraph:
+                        - link:
+                          - /url: https://www.crunchboard.com/
+                          - text: Crunchboard
+                      - paragraph:
+                        - link:
+                          - /url: /contact-us/
+                          - text: Contact Us
+    - generic [ref=e58]:
+      - generic [ref=e60]: Advertisement
+      - generic: Advertisement
+    - main [ref=e61]:
+      - generic [ref=e62]:
+        - heading "AI" [level=1] [ref=e63]
+        - paragraph [ref=e65]:
+          - text: News coverage on artificial intelligence and machine learning tech, the companies building them, and the ethical issues AI raises today. This encompasses
+          - link "generative AI" [ref=e66] [cursor=pointer]:
+            - /url: https://techcrunch.com/tag/generative-ai/
+          - text: ", including large language models, text-to-image and text-to-video models; speech recognition and generation; and predictive analytics."
+      - separator [ref=e67]
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - button "Headlines Only" [ref=e74] [cursor=pointer]: Headlines Only
+          - list [ref=e76]:
+            - listitem [ref=e77]:
+              - generic [ref=e79]:
+                - figure [ref=e80]:
+                  - img "Binary code and OpenAI logo" [ref=e81]
+                - generic [ref=e82]:
+                  - link "AI" [ref=e84] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "OpenAI teams up with Infosys to bring AI tools to more businesses" [level=3] [ref=e85]:
+                    - link "OpenAI teams up with Infosys to bring AI tools to more businesses" [ref=e86] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/
+                  - generic [ref=e87]:
+                    - list [ref=e88]:
+                      - listitem [ref=e89]:
+                        - link "Jagmeet Singh" [ref=e90] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/jagmeet-singh/
+                    - time [ref=e91]: "- 2 hours ago"
+            - listitem [ref=e92]:
+              - generic [ref=e94]:
+                - figure [ref=e95]:
+                  - 'img "The co-founders of 10x Science: David Roberts, Andrew Reiter, and Vishnu Tejus." [ref=e96]'
+                - generic [ref=e97]:
+                  - link "AI" [ref=e99] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "AI is spitting out more potential drugs than ever. This startup wants to figure out which ones matter." [level=3] [ref=e100]:
+                    - link "AI is spitting out more potential drugs than ever. This startup wants to figure out which ones matter." [ref=e101] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/
+                  - generic [ref=e102]:
+                    - list [ref=e103]:
+                      - listitem [ref=e104]:
+                        - link "Tim Fernholz" [ref=e105] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/tim-fernholz/
+                    - time [ref=e106]: "- 3 hours ago"
+            - listitem [ref=e107]:
+              - generic [ref=e109]:
+                - figure [ref=e110]
+                - generic [ref=e111]:
+                  - link "AI" [ref=e113] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "Google Maps is about to get a big dose of AI" [level=3] [ref=e114]:
+                    - link "Google Maps is about to get a big dose of AI" [ref=e115] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/22/google-maps-is-about-to-get-a-big-dose-of-ai/
+                  - generic [ref=e116]:
+                    - list [ref=e117]:
+                      - listitem [ref=e118]:
+                        - link "Lucas Ropek" [ref=e119] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/lucas-ropek/
+                    - time [ref=e120]: "- 4 hours ago"
+            - listitem [ref=e121]:
+              - generic [ref=e123]:
+                - figure [ref=e124]
+                - generic [ref=e125]:
+                  - link "AI" [ref=e127] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - 'heading "Exclusive: Google deepens Thinking Machines Lab ties with new multi-billion-dollar deal" [level=3] [ref=e128]':
+                    - 'link "Exclusive: Google deepens Thinking Machines Lab ties with new multi-billion-dollar deal" [ref=e129] [cursor=pointer]':
+                      - /url: https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/
+                  - generic [ref=e130]:
+                    - list [ref=e131]:
+                      - listitem [ref=e132]:
+                        - link "Rebecca Bellan" [ref=e133] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/rebecca-bellan/
+                    - time [ref=e134]: "- 4 hours ago"
+            - listitem [ref=e135]:
+              - generic [ref=e137]:
+                - figure [ref=e138]:
+                  - img "Google Cloud CEO Thomas Kurian" [ref=e139]
+                - generic [ref=e140]:
+                  - link "Startups" [ref=e142] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/startups/
+                  - heading "The most interesting startups showcased at Google Cloud Next 2026" [level=3] [ref=e143]:
+                    - link "The most interesting startups showcased at Google Cloud Next 2026" [ref=e144] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/22/the-most-interesting-startups-showcased-at-google-cloud-next-2026/
+                  - generic [ref=e145]:
+                    - list [ref=e146]:
+                      - listitem [ref=e147]:
+                        - link "Julie Bort" [ref=e148] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/julie-bort/
+                    - time [ref=e149]: "- 4 hours ago"
+            - listitem [ref=e150]:
+              - generic [ref=e152]:
+                - figure [ref=e153]:
+                  - img "Mark Zuckerberg, chief executive officer of Meta Platforms Inc." [ref=e154]
+                - generic [ref=e155]:
+                  - generic [ref=e157]: In Brief
+                  - heading "Meta will record employees’ keystrokes and use it to train its AI models" [level=3] [ref=e158]:
+                    - img [ref=e160]
+                    - link "Meta will record employees’ keystrokes and use it to train its AI models" [ref=e163] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/
+                  - generic [ref=e164]:
+                    - list [ref=e165]:
+                      - listitem [ref=e166]:
+                        - link "Lucas Ropek" [ref=e167] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/lucas-ropek/
+                    - time [ref=e168]: "- 16 hours ago"
+            - listitem [ref=e169]:
+              - generic [ref=e171]:
+                - figure [ref=e172]:
+                  - img "Dario Amodei, co-founder and chief executive officer of Anthropi." [ref=e173]
+                - generic [ref=e174]:
+                  - link "AI" [ref=e176] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims" [level=3] [ref=e177]:
+                    - link "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims" [ref=e178] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/
+                  - generic [ref=e179]:
+                    - list [ref=e180]:
+                      - listitem [ref=e181]:
+                        - link "Lucas Ropek" [ref=e182] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/lucas-ropek/
+                    - time [ref=e183]: "- 17 hours ago"
+            - listitem [ref=e184]:
+              - generic [ref=e186]:
+                - figure [ref=e187]
+                - generic [ref=e188]:
+                  - link "AI" [ref=e190] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "SpaceX is working with Cursor and has an option to buy the startup for $60B" [level=3] [ref=e191]:
+                    - link "SpaceX is working with Cursor and has an option to buy the startup for $60B" [ref=e192] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/
+                  - generic [ref=e193]:
+                    - list [ref=e194]:
+                      - listitem [ref=e195]:
+                        - link "Tim Fernholz" [ref=e196] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/tim-fernholz/
+                    - time [ref=e197]: "- 17 hours ago"
+            - listitem [ref=e198]:
+              - generic [ref=e200]:
+                - figure [ref=e201]
+                - generic [ref=e202]:
+                  - link "Hardware" [ref=e204] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/hardware/
+                  - heading "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield" [level=3] [ref=e205]:
+                    - link "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield" [ref=e206] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/
+                  - generic [ref=e207]:
+                    - list [ref=e208]:
+                      - listitem [ref=e209]:
+                        - link "Connie Loizos" [ref=e210] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/connie-loizos/
+                    - time [ref=e211]: "- 20 hours ago"
+            - listitem [ref=e212]:
+              - generic [ref=e214]:
+                - figure [ref=e215]
+                - generic [ref=e216]:
+                  - link "AI" [ref=e218] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "AI research lab NeoCognition lands $40M seed to build agents that learn like humans" [level=3] [ref=e219]:
+                    - link "AI research lab NeoCognition lands $40M seed to build agents that learn like humans" [ref=e220] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/
+                  - generic [ref=e221]:
+                    - list [ref=e222]:
+                      - listitem [ref=e223]:
+                        - link "Marina Temkin" [ref=e224] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/marina-temkin/
+                    - time [ref=e225]: "- 21 hours ago"
+            - listitem [ref=e226]:
+              - generic [ref=e228]:
+                - figure [ref=e229]:
+                  - 'img "OpenAI logo with spiraling pastel colors (Image Credits: Bryce Durbin / TechCrunch)" [ref=e230]'
+                - generic [ref=e231]:
+                  - link "AI" [ref=e233] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "ChatGPT’s new Images 2.0 model is surprisingly good at generating text" [level=3] [ref=e234]:
+                    - link "ChatGPT’s new Images 2.0 model is surprisingly good at generating text" [ref=e235] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/
+                  - generic [ref=e236]:
+                    - list [ref=e237]:
+                      - listitem [ref=e238]:
+                        - link "Amanda Silberling" [ref=e239] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/amanda-silberling/
+                    - time [ref=e240]: "- 21 hours ago"
+            - listitem [ref=e241]:
+              - generic [ref=e243]:
+                - figure [ref=e244]
+                - generic [ref=e245]:
+                  - generic [ref=e247]: In Brief
+                  - 'heading "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’" [level=3] [ref=e248]':
+                    - img [ref=e250]
+                    - 'link "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’" [ref=e253] [cursor=pointer]':
+                      - /url: https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/
+                  - generic [ref=e254]:
+                    - list [ref=e255]:
+                      - listitem [ref=e256]:
+                        - link "Lucas Ropek" [ref=e257] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/lucas-ropek/
+                    - time [ref=e258]: "- 21 hours ago"
+            - listitem [ref=e259]:
+              - generic [ref=e261]:
+                - figure [ref=e262]:
+                  - img "A person is holding a mobile phone with the OkCupid dating app logo on its screen." [ref=e263]
+                - generic [ref=e264]:
+                  - link "Apps" [ref=e266] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/apps/
+                  - heading "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says" [level=3] [ref=e267]:
+                    - link "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says" [ref=e268] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/
+                  - generic [ref=e269]:
+                    - list [ref=e270]:
+                      - listitem [ref=e271]:
+                        - link "Amanda Silberling" [ref=e272] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/amanda-silberling/
+                    - time [ref=e273]: "- 23 hours ago"
+            - listitem [ref=e274]:
+              - generic [ref=e276]:
+                - figure [ref=e277]:
+                  - img "Voyage Promo Art" [ref=e278]
+                - generic [ref=e279]:
+                  - link "Gaming" [ref=e281] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/gaming/
+                  - heading "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs" [level=3] [ref=e282]:
+                    - link "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs" [ref=e283] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/
+                  - generic [ref=e284]:
+                    - list [ref=e285]:
+                      - listitem [ref=e286]:
+                        - link "Lauren Forristal" [ref=e287] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/lauren-forristal/
+                    - time [ref=e288]: "- 1 day ago"
+            - listitem [ref=e289]:
+              - generic [ref=e291]:
+                - figure [ref=e292]:
+                  - img "Bond home screen" [ref=e293]
+                - generic [ref=e294]:
+                  - link "AI" [ref=e296] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit" [level=3] [ref=e297]:
+                    - link "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit" [ref=e298] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/bond-social-media-platform-ai-memories-kick-doomscrolling-habit/
+                  - generic [ref=e299]:
+                    - list [ref=e300]:
+                      - listitem [ref=e301]:
+                        - link "Lucas Ropek" [ref=e302] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/lucas-ropek/
+                    - time [ref=e303]: "- 1 day ago"
+            - listitem [ref=e304]:
+              - generic [ref=e306]:
+                - figure [ref=e307]
+                - generic [ref=e308]:
+                  - link "Media & Entertainment" [ref=e310] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/media-entertainment/
+                  - heading "YouTube expands its AI likeness detection technology to celebrities" [level=3] [ref=e311]:
+                    - link "YouTube expands its AI likeness detection technology to celebrities" [ref=e312] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/
+                  - generic [ref=e313]:
+                    - list [ref=e314]:
+                      - listitem [ref=e315]:
+                        - link "Sarah Perez" [ref=e316] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/sarah-perez/
+                    - time [ref=e317]: "- 1 day ago"
+            - listitem [ref=e318]:
+              - generic [ref=e320]:
+                - figure [ref=e321]:
+                  - img "woman dancing wearing headphones" [ref=e322]
+                - generic [ref=e323]:
+                  - link "Media & Entertainment" [ref=e325] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/media-entertainment/
+                  - heading "GRAI believes AI can make music more social, not replace artists" [level=3] [ref=e326]:
+                    - link "GRAI believes AI can make music more social, not replace artists" [ref=e327] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/21/grai-believes-ai-can-make-music-more-social-not-replace-artists/
+                  - generic [ref=e328]:
+                    - list [ref=e329]:
+                      - listitem [ref=e330]:
+                        - link "Sarah Perez" [ref=e331] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/sarah-perez/
+                    - time [ref=e332]: "- 1 day ago"
+            - listitem [ref=e333]:
+              - generic [ref=e335]:
+                - figure [ref=e336]:
+                  - img "Andy Jassy, Amazon CEO" [ref=e337]
+                - generic [ref=e338]:
+                  - generic [ref=e340]: In Brief
+                  - heading "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return" [level=3] [ref=e341]:
+                    - img [ref=e343]
+                    - link "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return" [ref=e346] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/
+                  - generic [ref=e347]:
+                    - list [ref=e348]:
+                      - listitem [ref=e349]:
+                        - link "Julie Bort" [ref=e350] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/julie-bort/
+                    - time [ref=e351]: "- 2 days ago"
+            - listitem [ref=e352]:
+              - generic [ref=e354]:
+                - figure [ref=e355]
+                - generic [ref=e356]:
+                  - generic [ref=e358]: In Brief
+                  - heading "Google rolls out Gemini in Chrome in APAC countries" [level=3] [ref=e359]:
+                    - img [ref=e361]
+                    - link "Google rolls out Gemini in Chrome in APAC countries" [ref=e364] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/
+                  - generic [ref=e365]:
+                    - list [ref=e366]:
+                      - listitem [ref=e367]:
+                        - link "Ivan Mehta" [ref=e368] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/ivan-mehta/
+                    - time [ref=e369]: "- 2 days ago"
+            - listitem [ref=e370]:
+              - generic [ref=e372]:
+                - figure [ref=e373]:
+                  - img "render of a robot typing on a typewriter." [ref=e374]
+                - generic [ref=e375]:
+                  - link "AI" [ref=e377] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "It’s not just one thing — it’s another thing" [level=3] [ref=e378]:
+                    - link "It’s not just one thing — it’s another thing" [ref=e379] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/
+                  - generic [ref=e380]:
+                    - list [ref=e381]:
+                      - listitem [ref=e382]:
+                        - link "Amanda Silberling" [ref=e383] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/amanda-silberling/
+                    - time [ref=e384]: "- 2 days ago"
+            - listitem [ref=e385]:
+              - generic [ref=e387]:
+                - figure [ref=e388]:
+                  - img "The Claude logo is displayed on a smartphone screen placed on a reflective surface onto which a multitude of Claude logos are projected." [ref=e389]
+                - generic [ref=e390]:
+                  - generic [ref=e392]: In Brief
+                  - heading "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud" [level=3] [ref=e393]:
+                    - img [ref=e395]
+                    - link "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud" [ref=e398] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/
+                  - generic [ref=e399]:
+                    - list [ref=e400]:
+                      - listitem [ref=e401]:
+                        - link "Rebecca Bellan" [ref=e402] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/rebecca-bellan/
+                    - time [ref=e403]: "- 2 days ago"
+            - listitem [ref=e404]:
+              - generic [ref=e406]:
+                - figure [ref=e407]:
+                  - img "Toby Neugebauer, chief executive officer of Fermi Inc., before ringing the closing bell during the company's initial public offering (IPO) at the Nasdaq MarketSite in New York, US, on Wednesday, Oct. 1, 2025." [ref=e408]
+                - generic [ref=e409]:
+                  - generic [ref=e411]: In Brief
+                  - heading "CEO and CFO suddenly depart AI nuclear power upstart Fermi" [level=3] [ref=e412]:
+                    - img [ref=e414]
+                    - link "CEO and CFO suddenly depart AI nuclear power upstart Fermi" [ref=e417] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/
+                  - generic [ref=e418]:
+                    - list [ref=e419]:
+                      - listitem [ref=e420]:
+                        - link "Kirsten Korosec" [ref=e421] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/kirsten-korosec/
+                    - time [ref=e422]: "- 2 days ago"
+            - listitem [ref=e423]:
+              - generic [ref=e425]:
+                - figure [ref=e426]:
+                  - img "A man walks past a street protest mural referencing OpenAI and Google's artificial intelligence technology and text reading Will You Spy on Your Neighbors, with stylized headshots of the companies' leaders, a reference to controversy regarding artificial intelligence and alleged domestic surveillance, San Francisco, California." [ref=e427]
+                - generic [ref=e428]:
+                  - link "AI" [ref=e430] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "OpenAI’s existential questions" [level=3] [ref=e431]:
+                    - link "OpenAI’s existential questions" [ref=e432] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/19/openais-existential-questions/
+                  - generic [ref=e433]:
+                    - list [ref=e434]:
+                      - listitem [ref=e435]:
+                        - link "Anthony Ha" [ref=e436] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/anthony-ha/
+                    - time [ref=e437]: "- 3 days ago"
+            - listitem [ref=e438]:
+              - generic [ref=e440]:
+                - figure [ref=e441]:
+                  - img "Elad Gil speaks at TechCrunch Disrupt 2025" [ref=e442]
+                - generic [ref=e443]:
+                  - generic [ref=e445]: In Brief
+                  - heading "The 12-month window" [level=3] [ref=e446]:
+                    - img [ref=e448]
+                    - link "The 12-month window" [ref=e451] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/19/the-12-month-window/
+                  - generic [ref=e452]:
+                    - list [ref=e453]:
+                      - listitem [ref=e454]:
+                        - link "Connie Loizos" [ref=e455] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/connie-loizos/
+                    - time [ref=e456]: "- 3 days ago"
+            - listitem [ref=e457]:
+              - generic [ref=e459]:
+                - figure [ref=e460]:
+                  - img "A logo for Palantir Technologies Inc. sits on a pop-up office" [ref=e461]
+                - generic [ref=e462]:
+                  - link "AI" [ref=e464] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures" [level=3] [ref=e465]:
+                    - link "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures" [ref=e466] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/
+                  - generic [ref=e467]:
+                    - list [ref=e468]:
+                      - listitem [ref=e469]:
+                        - link "Anthony Ha" [ref=e470] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/anthony-ha/
+                    - time [ref=e471]: "- 3 days ago"
+            - listitem [ref=e472]:
+              - generic [ref=e474]:
+                - figure [ref=e475]:
+                  - img "Nissan, Uber, and Wayve collaboration - white robotaxi" [ref=e476]
+                - generic [ref=e477]:
+                  - link "Transportation" [ref=e479] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/transportation/
+                  - 'heading "TechCrunch Mobility: Uber enters its assetmaxxing era" [level=3] [ref=e480]':
+                    - 'link "TechCrunch Mobility: Uber enters its assetmaxxing era" [ref=e481] [cursor=pointer]':
+                      - /url: https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/
+                  - generic [ref=e482]:
+                    - list [ref=e483]:
+                      - listitem [ref=e484]:
+                        - link "Kirsten Korosec" [ref=e485] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/kirsten-korosec/
+                    - time [ref=e486]: "- 3 days ago"
+            - listitem [ref=e487]:
+              - generic [ref=e489]:
+                - figure [ref=e490]:
+                  - img "Tesla Robotaxis Texas" [ref=e491]
+                - generic [ref=e492]:
+                  - generic [ref=e494]: In Brief
+                  - heading "Tesla brings its robotaxi service to Dallas and Houston" [level=3] [ref=e495]:
+                    - img [ref=e497]
+                    - link "Tesla brings its robotaxi service to Dallas and Houston" [ref=e500] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/
+                  - generic [ref=e501]:
+                    - list [ref=e502]:
+                      - listitem [ref=e503]:
+                        - link "Anthony Ha" [ref=e504] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/anthony-ha/
+                    - time [ref=e505]: "- 4 days ago"
+            - listitem [ref=e506]:
+              - generic [ref=e508]:
+                - figure [ref=e509]:
+                  - img "AWS Austin chip lab tour and data center" [ref=e510]
+                - generic [ref=e511]:
+                  - generic [ref=e513]: In Brief
+                  - heading "AI chip startup Cerebras files for IPO" [level=3] [ref=e514]:
+                    - img [ref=e516]
+                    - link "AI chip startup Cerebras files for IPO" [ref=e519] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/
+                  - generic [ref=e520]:
+                    - list [ref=e521]:
+                      - listitem [ref=e522]:
+                        - link "Anthony Ha" [ref=e523] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/anthony-ha/
+                    - time [ref=e524]: "- 4 days ago"
+            - listitem [ref=e525]:
+              - generic [ref=e527]:
+                - figure [ref=e528]:
+                  - img "Dario Amodei" [ref=e529]
+                - generic [ref=e530]:
+                  - link "AI" [ref=e532] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/artificial-intelligence/
+                  - heading "Anthropic’s relationship with the Trump administration seems to be thawing" [level=3] [ref=e533]:
+                    - link "Anthropic’s relationship with the Trump administration seems to be thawing" [ref=e534] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/
+                  - generic [ref=e535]:
+                    - list [ref=e536]:
+                      - listitem [ref=e537]:
+                        - link "Anthony Ha" [ref=e538] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/anthony-ha/
+                    - time [ref=e539]: "- 4 days ago"
+            - listitem [ref=e540]:
+              - generic [ref=e542]:
+                - figure [ref=e543]
+                - generic [ref=e544]:
+                  - link "Apps" [ref=e546] [cursor=pointer]:
+                    - /url: https://techcrunch.com/category/apps/
+                  - heading "The App Store is booming again, and AI may be why" [level=3] [ref=e547]:
+                    - link "The App Store is booming again, and AI may be why" [ref=e548] [cursor=pointer]:
+                      - /url: https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/
+                  - generic [ref=e549]:
+                    - list [ref=e550]:
+                      - listitem [ref=e551]:
+                        - link "Sarah Perez" [ref=e552] [cursor=pointer]:
+                          - /url: https://techcrunch.com/author/sarah-perez/
+                    - time [ref=e553]: "- 4 days ago"
+          - navigation "Pagination" [ref=e554]:
+            - link "Next" [ref=e555] [cursor=pointer]:
+              - /url: https://techcrunch.com/category/artificial-intelligence/page/2/
+              - generic [ref=e556]: Next
+              - img [ref=e557]
+        - generic [ref=e561]:
+          - generic [ref=e564]: Advertisement
+          - generic [ref=e566]:
+            - img "Event Logo" [ref=e567]
+            - generic [ref=e568]:
+              - generic [ref=e569]: April 30
+              - generic [ref=e570]: San Francisco, CA
+            - paragraph [ref=e571]:
+              - text: StrictlyVC kicks off the year in SF. Get in the room for unfiltered fireside chats with industry leaders, insider VC insights, and high-value connections that actually move the needle.
+              - strong [ref=e572]: Tickets are limited.
+            - link "REGISTER NOW" [ref=e575] [cursor=pointer]:
+              - /url: https://techcrunch.com/events/strictlyvc-san-francisco-2026/?utm_source=tc&utm_medium=ad&utm_campaign=svcsf2026&utm_content=ticketsales&promo=rightrail&display=
+              - strong [ref=e576]:
+                - text: REGISTER NOW
+                - img [ref=e577]
+          - generic [ref=e579]:
+            - generic [ref=e580]:
+              - heading "Most Popular" [level=2] [ref=e581]
+              - img [ref=e583]
+            - list [ref=e586]:
+              - listitem [ref=e587]:
+                - generic [ref=e589]:
+                  - heading "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims" [level=3] [ref=e591]:
+                    - paragraph [ref=e592]:
+                      - link "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims" [ref=e593] [cursor=pointer]:
+                        - /url: https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/
+                  - paragraph
+              - listitem [ref=e594]:
+                - generic [ref=e596]:
+                  - generic [ref=e597]:
+                    - heading "Tim Cook stepping down as Apple CEO, John Ternus taking over" [level=3] [ref=e598]:
+                      - paragraph [ref=e599]:
+                        - link "Tim Cook stepping down as Apple CEO, John Ternus taking over" [ref=e600] [cursor=pointer]:
+                          - /url: https://techcrunch.com/2026/04/20/tim-cook-stepping-down-as-apple-ceo-john-ternus-taking-over/
+                    - text: ","
+                  - paragraph
+              - listitem [ref=e601]:
+                - generic [ref=e603]:
+                  - heading "Blue Origin’s New Glenn put a customer satellite in the wrong orbit during its third launch" [level=3] [ref=e605]:
+                    - paragraph [ref=e606]:
+                      - link "Blue Origin’s New Glenn put a customer satellite in the wrong orbit during its third launch" [ref=e607] [cursor=pointer]:
+                        - /url: https://techcrunch.com/2026/04/19/blue-origins-new-glenn-put-a-customer-satellite-in-the-wrong-orbit-during-its-third-launch/
+                  - paragraph
+              - listitem [ref=e608]:
+                - generic [ref=e610]:
+                  - heading "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures" [level=3] [ref=e612]:
+                    - paragraph [ref=e613]:
+                      - link "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures" [ref=e614] [cursor=pointer]:
+                        - /url: https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/
+                  - paragraph
+              - listitem [ref=e615]:
+                - generic [ref=e617]:
+                  - heading "‘Tokenmaxxing’ is making developers less productive than they think" [level=3] [ref=e619]:
+                    - paragraph [ref=e620]:
+                      - link "‘Tokenmaxxing’ is making developers less productive than they think" [ref=e621] [cursor=pointer]:
+                        - /url: https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/
+                  - paragraph
+              - listitem [ref=e622]:
+                - generic [ref=e624]:
+                  - heading "Anthropic launches Claude Design, a new product for creating quick visuals" [level=3] [ref=e626]:
+                    - paragraph [ref=e627]:
+                      - link "Anthropic launches Claude Design, a new product for creating quick visuals" [ref=e628] [cursor=pointer]:
+                        - /url: https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/
+                  - paragraph
+              - listitem [ref=e629]:
+                - generic [ref=e631]:
+                  - heading "Anthropic CPO leaves Figma’s board after reports he will offer a competing product" [level=3] [ref=e633]:
+                    - paragraph [ref=e634]:
+                      - link "Anthropic CPO leaves Figma’s board after reports he will offer a competing product" [ref=e635] [cursor=pointer]:
+                        - /url: https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/
+                  - paragraph
+          - generic [ref=e638]: Advertisement
+    - contentinfo [ref=e639]:
+      - generic [ref=e640]:
+        - generic:
+          - generic: Advertisement
+        - generic: Advertisement
+        - button "Close sticky bottom ad" [ref=e641] [cursor=pointer]: ✕
+      - generic [ref=e642]:
+        - generic [ref=e643]:
+          - generic [ref=e644]:
+            - figure [ref=e645]:
+              - link "TechCrunch Logo" [ref=e646] [cursor=pointer]:
+                - /url: https://techcrunch.com
+                - img "TechCrunch Logo" [ref=e647]
+            - list [ref=e648]:
+              - listitem [ref=e649]:
+                - link "X" [ref=e650] [cursor=pointer]:
+                  - /url: https://twitter.com/techcrunch
+                  - img [ref=e651]
+                  - generic [ref=e653]: X
+              - listitem [ref=e654]:
+                - link "LinkedIn" [ref=e655] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/techcrunch
+                  - img [ref=e656]
+                  - generic [ref=e658]: LinkedIn
+              - listitem [ref=e659]:
+                - link "Facebook" [ref=e660] [cursor=pointer]:
+                  - /url: https://www.facebook.com/techcrunch
+                  - img [ref=e661]
+                  - generic [ref=e663]: Facebook
+              - listitem [ref=e664]:
+                - link "Instagram" [ref=e665] [cursor=pointer]:
+                  - /url: https://instagram.com/techcrunch
+                  - img [ref=e666]
+                  - generic [ref=e668]: Instagram
+              - listitem [ref=e669]:
+                - link "youTube" [ref=e670] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/techcrunch
+                  - img [ref=e671]
+                  - generic [ref=e673]: youTube
+              - listitem [ref=e674]:
+                - link "Mastodon" [ref=e675] [cursor=pointer]:
+                  - /url: https://mstdn.social/@TechCrunch
+                  - img [ref=e676]
+                  - generic [ref=e678]: Mastodon
+              - listitem [ref=e679]:
+                - link "Threads" [ref=e680] [cursor=pointer]:
+                  - /url: https://www.threads.net/@techcrunch
+                  - img [ref=e681]
+                  - generic [ref=e683]: Threads
+              - listitem [ref=e684]:
+                - link "Bluesky" [ref=e685] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/techcrunch.com
+                  - img [ref=e686]
+                  - generic [ref=e688]: Bluesky
+          - generic [ref=e690]:
+            - 'navigation "Footer – About: Col1" [ref=e692]':
+              - list [ref=e693]:
+                - listitem [ref=e694]:
+                  - link "TechCrunch" [ref=e695] [cursor=pointer]:
+                    - /url: https://techcrunch.com/
+                - listitem [ref=e696]:
+                  - link "Staff" [ref=e697] [cursor=pointer]:
+                    - /url: https://techcrunch.com/about-techcrunch/
+                - listitem [ref=e698]:
+                  - link "Contact Us" [ref=e699] [cursor=pointer]:
+                    - /url: https://techcrunch.com/contact-us/
+                - listitem [ref=e700]:
+                  - link "Advertise" [ref=e701] [cursor=pointer]:
+                    - /url: https://techcrunch.com/advertise/
+                - listitem [ref=e702]:
+                  - link "Crunchboard Jobs" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.crunchboard.com/
+                - listitem [ref=e704]:
+                  - link "Site Map" [ref=e705] [cursor=pointer]:
+                    - /url: https://techcrunch.com/site-map/
+            - 'navigation "Footer – Legal: Col2" [ref=e707]':
+              - list [ref=e708]:
+                - listitem [ref=e709]:
+                  - link "Terms of Service" [ref=e710] [cursor=pointer]:
+                    - /url: https://techcrunch.com/terms-of-service/
+                - listitem [ref=e711]:
+                  - link "Privacy Policy" [ref=e712] [cursor=pointer]:
+                    - /url: https://techcrunch.com/privacy-policy/
+                - listitem [ref=e713]:
+                  - link "RSS Terms of Use" [ref=e714] [cursor=pointer]:
+                    - /url: https://techcrunch.com/rss-terms-of-use/
+            - 'navigation "Footer – Trending Topics: Col3" [ref=e716]':
+              - list [ref=e717]:
+                - listitem [ref=e718]:
+                  - link "Tim Cook" [ref=e719] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2026/04/20/tim-cook-stepping-down-as-apple-ceo-john-ternus-taking-over/
+                - listitem [ref=e720]:
+                  - link "John Ternus" [ref=e721] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2026/04/20/who-is-john-ternus-the-incoming-apple-ceo/
+                - listitem [ref=e722]:
+                  - link "New Glenn" [ref=e723] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2026/04/20/faa-orders-investigation-into-blue-origins-new-glenn-mishap/
+                - listitem [ref=e724]:
+                  - link "WhatsApp" [ref=e725] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2026/04/20/whatsapp-is-testing-a-premium-subscription-put-it-is-mainly-cosmetic/
+                - listitem [ref=e726]:
+                  - link "Mythos" [ref=e727] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/
+                - listitem [ref=e728]:
+                  - link "Tech Layoffs" [ref=e729] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2025/02/28/tech-layoffs-2024-list/
+                - listitem [ref=e730]:
+                  - link "ChatGPT" [ref=e731] [cursor=pointer]:
+                    - /url: https://techcrunch.com/2025/01/28/chatgpt-everything-to-know-about-the-ai-chatbot/
+        - paragraph [ref=e732]: © 2026 TechCrunch Media LLC.
+  - generic [ref=e733]: Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+  - dialog "TechCrunch asks for your consent to use your personal data to:" [active] [ref=e737]:
+    - generic [ref=e739]:
+      - generic [ref=e740]:
+        - img "Welcome to TechCrunch" [ref=e743]
+        - heading "TechCrunch asks for your consent to use your personal data to:" [level=1] [ref=e744]
+      - list [ref=e746]:
+        - listitem [ref=e747]:
+          - img [ref=e750]
+          - generic [ref=e752]: Personalised advertising and content, advertising and content measurement, audience research and services development
+        - listitem [ref=e753]:
+          - img [ref=e756]
+          - generic [ref=e758]: Store and/or access information on a device
+      - button "Learn more" [ref=e759] [cursor=pointer]:
+        - img [ref=e762]
+        - generic [ref=e764]: Learn more
+      - generic [ref=e765]:
+        - paragraph [ref=e766]:
+          - text: Your personal data will be processed and information from your device (cookies, unique identifiers, and other device data) may be stored by, accessed by and shared with 213 partners, or used specifically by this site. We and our partners may use precise geolocation data.
+          - button "List of partners." [ref=e767] [cursor=pointer]
+        - paragraph [ref=e768]: Some vendors may process your personal data on the basis of legitimate interest, which you can object to by managing your options below. Look for a link at the bottom of this page or in the site menu to manage or withdraw consent in privacy and cookie settings.
+    - generic [ref=e769]:
+      - generic [ref=e771]:
+        - button "Consent" [ref=e772] [cursor=pointer]:
+          - paragraph [ref=e774]: Consent
+        - button "Do not consent" [ref=e775] [cursor=pointer]:
+          - paragraph [ref=e777]: Do not consent
+      - button "Manage options" [ref=e778] [cursor=pointer]:
+        - paragraph [ref=e779]: Manage options

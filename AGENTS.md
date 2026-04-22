@@ -64,7 +64,7 @@ Jedes Modul folgt dem Muster: `Controller -> Service -> Schema/Routes`.
 
 ## 📂 Key Files
 - `app/backend/src/app.ts`: Core server logic and plugin registration.
-- `app/backend/src/config/env.ts`: Central configuration and Zod validation.
+- `app/backend/src/config/.env`: Central configuration and Zod validation.
 - `app/backend/src/plugins/ai-service.ts`: Shared AI SDK instance.
 - `app/backend/src/plugins/database.ts`: Drizzle ORM initialization.
 

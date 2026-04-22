@@ -1,0 +1,112 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header
+        - text: Über Google
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE
+        - text: Store
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: https://mail.google.com/mail/&ogbl
+            - text: Gmail
+          - link [ref=e12] [cursor=pointer]:
+            - /url: https://www.google.com/imghp?hl=de&ogbl
+            - text: Bilder
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+        - link [ref=e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=de&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+          - text: Anmelden
+    - img [ref=e23]
+    - search [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - button [ref=e38] [cursor=pointer]:
+            - img [ref=e40]
+          - combobox [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - button [ref=e46] [cursor=pointer]:
+                - img [ref=e47]
+              - button [ref=e49] [cursor=pointer]:
+                - img [ref=e50]
+            - link [ref=e52] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img [ref=e56]
+                - generic [ref=e63]: KI‑Modus
+        - generic [ref=e65]:
+          - button [ref=e66] [cursor=pointer]: Google Suche
+          - button [ref=e67] [cursor=pointer]: Auf gut Glück!
+    - contentinfo [ref=e70]:
+      - generic [ref=e71]: Deutschland
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: https://www.google.com/intl/de_de/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+            - text: Werbeprogramme
+          - link [ref=e75] [cursor=pointer]:
+            - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+            - text: Unternehmen
+          - link [ref=e76] [cursor=pointer]:
+            - /url: https://google.com/search/howsearchworks/?fg=1
+            - text: Wie funktioniert die Google Suche?
+        - link [ref=e78] [cursor=pointer]:
+          - /url: https://sustainability.google/intl/de/klimaschutz/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+          - text: "Drei Jahrzehnte Klimaschutz: Jede Entscheidung zählt"
+        - generic [ref=e79]:
+          - link [ref=e80] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=de&fg=1
+            - text: Datenschutzerklärung
+          - link [ref=e81] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=de&fg=1
+            - text: Nutzungsbedingungen
+          - button [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: Einstellungen
+  - generic:
+    - dialog "Bevor Sie zur Google Suche weitergehen":
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img "Google" [ref=e96]
+          - generic [ref=e97]:
+            - 'button "Sprache: ‪Deutsch‬" [active] [ref=e99] [cursor=pointer]':
+              - generic [ref=e100]:
+                - img
+                - generic [ref=e101]: de
+            - link "Anmelden" [ref=e102] [cursor=pointer]
+        - generic [ref=e103]:
+          - heading "Bevor Sie zu Google weitergehen" [level=1] [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - text: Wir verwenden
+              - link "Cookies" [ref=e107] [cursor=pointer]:
+                - /url: https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de
+              - text: und Daten, um
+              - list [ref=e108]:
+                - listitem [ref=e109]: Google-Dienste zu erbringen und zu betreiben
+                - listitem [ref=e110]: Ausfälle zu prüfen und Maßnahmen gegen Spam, Betrug und Missbrauch zu ergreifen
+                - listitem [ref=e111]: Daten zu Zielgruppeninteraktionen und Websitestatistiken zu erheben. Mit den gewonnenen Informationen möchten wir verstehen, wie unsere Dienste verwendet werden, und die Qualität dieser Dienste verbessern.
+            - generic [ref=e112]:
+              - text: Wenn Sie „Alle akzeptieren“ auswählen, verwenden wir Cookies und Daten auch, um
+              - list [ref=e113]:
+                - listitem [ref=e114]: neue Dienste zu entwickeln und zu verbessern
+                - listitem [ref=e115]: Werbung auszuliefern und ihre Effektivität zu messen
+                - listitem [ref=e116]: je nach Ihren Einstellungen personalisierte Inhalte anzuzeigen
+                - listitem [ref=e117]: personalisierte Werbung anzuzeigen, abhängig von Ihren Einstellungen
+              - generic [ref=e118]: Wenn Sie „Alle ablehnen“ auswählen, verwenden wir Cookies nicht für diese zusätzlichen Zwecke.
+            - generic [ref=e119]: Nicht personalisierte Inhalte werden u. a. von Inhalten, die Sie sich gerade ansehen, Aktivitäten in Ihrer aktiven Suchsitzung und Ihrem Standort beeinflusst. Nicht personalisierte Werbung wird von den Inhalten, die Sie sich gerade ansehen, und Ihrem allgemeinen Standort beeinflusst. Personalisierte Inhalte und Werbung können auch relevantere Ergebnisse, Empfehlungen und individuelle Werbung enthalten, die auf früheren Aktivitäten in diesem Browser, etwa Suchanfragen bei Google, beruhen. Sofern relevant, verwenden wir Cookies und Daten außerdem, um Inhalte und Werbung altersgerecht zu gestalten.
+            - generic [ref=e120]: Wählen Sie „Weitere Optionen“ aus, um sich zusätzliche Informationen anzusehen, einschließlich Details zum Verwalten Ihrer Datenschutzeinstellungen. Sie können auch jederzeit g.co/privacytools besuchen.
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - button "Alle ablehnen" [ref=e123] [cursor=pointer]
+            - button "Alle akzeptieren" [ref=e124] [cursor=pointer]
+          - link "Weitere Optionen für Personalisierungseinstellungen und Cookies" [ref=e126] [cursor=pointer]:
+            - generic "Weitere Optionen für Personalisierungseinstellungen und Cookies" [ref=e127]: Weitere Optionen
+        - generic [ref=e128]:
+          - link "Datenschutz" [ref=e129] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=de&fg=1&utm_source=ucbs
+          - generic [ref=e130]: ·
+          - link "Nutzungsbedingungen" [ref=e131] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs
